@@ -1,8 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import "@fontsource/cormorant-garamond/500.css";
-import "@fontsource/cormorant-garamond/600.css";
-import "@fontsource/cormorant-garamond/500-italic.css";
-import "@fontsource-variable/manrope";
+import "@fontsource-variable/archivo/wdth.css";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";

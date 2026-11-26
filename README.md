@@ -64,4 +64,4 @@ Only verified information is published. Unpublished details (MOQ, lead time, cer
 
 ## Design system
 
-Modern Luxury Industrial. Palette: Espresso `#211813`, Dark Leather `#493226`, Cognac `#A66E45`, Sand `#D4B995`, Ivory `#F5F0E8`, White. Type: Cormorant Garamond (headings), Manrope (body and UI), both self-hosted. All tokens live at the top of `src/app/globals.css`. Animations respect `prefers-reduced-motion`.
+Modern Luxury Industrial. Palette: Espresso `#211813`, Dark Leather `#493226`, Cognac `#A66E45`, Sand `#D4B995`, Ivory `#F5F0E8`, White. Type: Archivo (self-hosted variable font) — Expanded width (125%) bold for headlines, figures and labels, in the spirit of Termina; normal width for body text. If a Termina licence (e.g. Adobe Fonts) is obtained, change `--font-display` in `globals.css`. All tokens live at the top of `src/app/globals.css`. Animations respect `prefers-reduced-motion`.
