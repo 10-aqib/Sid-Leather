@@ -1,0 +1,33 @@
+{
+  "name": "sid-leather",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SID Leather — leather manufacturer and exporter, Karachi, Pakistan.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "map": "node scripts/build-map.mjs"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "5.3.0",
+    "@fontsource/cormorant-garamond": "5.3.0",
+    "next": "16.4.6",
+    "nodemailer": "10.5.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.7",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "topojson-client": "3.1.0",
+    "typescript": "5.9.3",
+    "world-atlas": "2.0.2"
+  }
+}
